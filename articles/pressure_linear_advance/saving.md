@@ -21,7 +21,7 @@ grand_parent: Tuning
 
 ---
 
-![]({{ "/assets/img/klipper.png" | absolute_url }})
+![Klipper firmware]({{ "/assets/img/klipper.png" | absolute_url }})
 
 - In the `[extruder]` section of your config, update `pressure_advance` to the new value and issue a `RESTART`.
 
@@ -33,7 +33,7 @@ grand_parent: Tuning
 
 ---
 
-![]({{ "/assets/img/marlin.png" | absolute_url }})
+![marlin firmware]({{ "/assets/img/marlin.png" | absolute_url }})
 
 - Place `M900 K`\<value\> in your filament g-code (same as above). This must be set each time.
 
@@ -44,6 +44,6 @@ grand_parent: Tuning
 ---
 
 
-![]({{ "/assets/img/duet.png" | absolute_url }})
+![duet firmware]({{ "/assets/img/duet.png" | absolute_url }})
 
 - Place `M572 S`\<value\> in your filament g-code (same as above) or in your start macro. This must be set each time.
